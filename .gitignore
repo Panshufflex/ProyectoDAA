@@ -1,0 +1,30 @@
+# Artefactos de compilacion de C++
+*.exe
+*.o
+*.obj
+*.out
+*.pdb
+*.ilk
+cpp/procesamiento_mineral
+
+# Archivos y carpetas generados por Visual Studio
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+Debug/
+Release/
+x64/
+x86/
+out/
+
+# Archivos y carpetas generados por otros IDEs (VS Code, CLion)
+.vscode/
+.idea/
+cmake-build-*/
+
+# Archivos temporales de Office (se crean al tener el docx/xlsx abierto)
+~$*.docx
+~$*.xlsx
+~$*.xlsm
