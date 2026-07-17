@@ -130,7 +130,3 @@ Sobre `data/instancia_20bloques.txt`, compilando con GCC 16.1.0 (mismo compilado
 | Factibilidad | Válida | Válida |
 
 El valor 0 de la línea base **no es un error**: es la limitación que ya se documentó en `Baseline.hpp`. Con esta instancia (solo 5 bloques de tipo II frente a 15 de tipo I), el primer bloque que asigna la línea base agota todo lo que puede de un tipo antes de tocar el otro, y al corregir la mezcla ese primer intento queda escalado a cero — y esa masa nunca se recupera. Es exactamente el escenario que motivó a preferir la propuesta principal, y es un buen ejemplo concreto para la sección de "identificación de dificultades" de la Entrega 2.
-
-## Nota sobre verificación
-
-Este código fue escrito y revisado manualmente línea por línea. No se pudo compilar directamente en la máquina donde se generó (no había ningún compilador de C++ instalado), así que se verificó de dos formas independientes: (1) una simulación del mismo algoritmo hecha en otro lenguaje sobre los datos reales de `data/instancia_20bloques.txt`, y (2) una compilación y ejecución real contra GCC 16.1.0 (la misma versión que instalaron en el equipo) a través de un compilador remoto, con y sin optimización. Ambas coinciden en los resultados de la tabla de arriba. Aun así, hay que compilarlo también de forma local al menos una vez — si aparece algún error o resultado distinto, avisar para corregirlo antes de subir al repositorio.
