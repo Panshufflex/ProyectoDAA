@@ -22,12 +22,13 @@ El razonamiento completo, con una explicación en lenguaje simple, un ejemplo nu
 ## Estructura del proyecto
 
 ```
+README.md    (este archivo)
+DatosTema2.xlsx, minerals-15-00427-v2.pdf, PropuestaAlgoritmica_Entrega2.docx
 cpp/
   include/   Instance.hpp, Types.hpp, Verifier.hpp, Baseline.hpp, MainAlgorithm.hpp
   src/       Instance.cpp, Verifier.cpp, Baseline.cpp, MainAlgorithm.cpp, main.cpp
   data/      instancia_20bloques.txt
   Makefile
-  README.md  (este archivo)
 ```
 
 - **Instance**: representación computacional de la instancia (bloques, modos, tipos de roca) y su lector de archivo.
@@ -100,8 +101,8 @@ Contexto de este repositorio:
   MainAlgorithm (propuesta principal: construcción greedy con reparto
   proporcional entre modos operacionales), Verifier (chequeo de factibilidad),
   main.cpp (corre y compara ambos sobre la misma instancia).
-- cpp/README.md tiene las instrucciones de compilación, el detalle de la
-  instancia de datos y la lista de lo que falta por hacer.
+- README.md (este archivo) tiene las instrucciones de compilación, el detalle
+  de la instancia de datos y la lista de lo que falta por hacer.
 
 Por favor:
 - No rediseñes el algoritmo principal ni la línea base sin revisar primero
@@ -109,7 +110,7 @@ Por favor:
 - Si modificas el código, mantén el estilo existente (sin dependencias externas,
   comentarios solo donde el porqué no es obvio a simple vista).
 - Antes de asumir qué falta por hacer, revisa la sección correspondiente de
-  cpp/README.md.
+  este README.md.
 ```
 
 ## Origen y supuestos de la instancia de datos (`data/instancia_20bloques.txt`)
