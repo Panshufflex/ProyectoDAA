@@ -1,0 +1,28 @@
+Instancia cargada: 200 bloques, 2 modos, 2 tipos de roca.
+
+=== Linea base (greedy simple, Entrega 1) ===
+Valor total: 0.00
+Tiempo de ejecucion: 0.13 ms
+Masa procesada por modo:
+  A: 0.00 ton
+  B: 0.00 ton
+Masa procesada por tipo de roca:
+  I: 0.00 ton
+  II: 0.00 ton
+Factibilidad: VALIDA
+Tiempo de planta usado: 0.00 / 1000000.00 h
+
+=== Propuesta principal (Entrega 2) ===
+Valor total: 1232932227.51
+Tiempo de ejecucion: 0.04 ms
+Masa procesada por modo:
+  A: 2601923.08 ton
+  B: 0.00 ton
+Masa procesada por tipo de roca:
+  I: 1691250.00 ton
+  II: 910673.08 ton
+Factibilidad: VALIDA
+Tiempo de planta usado: 10407.69 / 1000000.00 h
+
+=== Comparacion ===
+Diferencia absoluta de valor: 1232932227.508
